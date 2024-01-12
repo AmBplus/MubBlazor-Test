@@ -9,8 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MubBlazor-Test.Client\MubBlazor-Test.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MubBlazor-Test.Client\MubBlazor-Test.Client.csproj" />
   </ItemGroup>
 
 </Project>
